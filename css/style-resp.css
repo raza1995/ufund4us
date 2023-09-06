@@ -1,0 +1,347 @@
+
+@media (max-width: 1199px) and (min-width: 991px) {
+
+.md-li-inner {
+    width: 168px;
+}
+
+
+.donate-button a {
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 200px;
+}
+
+.donate-button {
+    left: -30px;
+}
+
+.make-donation ul {
+    margin-bottom: 60px;
+}
+
+.md-li-inner {
+    background: url(../images/price-box-mobile.png) top center no-repeat;
+}
+
+.md-li-inner:hover {
+    background: url(../images/price-box-mobile-hover.png) top center no-repeat;
+}
+
+.company-name
+{
+  font-size: 50px;
+}
+
+.company-slogan
+{
+  font-size: 25px;
+}
+
+
+
+
+
+}
+/*1199*/
+
+
+
+
+@media (max-width: 991px) and (min-width: 767px){
+
+.make-donation ul {
+    margin-bottom: 60px;
+}
+
+
+.make-donation ul li {
+    width: 33.333%;
+    margin: 30px 0px;
+}
+
+.md-li-inner {
+    width: 100%;
+}
+
+.donate-button a {
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 200px;
+}
+
+.donate-button {
+    left: -1px;
+}
+
+.md-li-inner {
+    background: url(../images/price-box-mobile.png) top center no-repeat;
+}
+
+.md-li-inner:hover {
+    background: url(../images/price-box-mobile-hover.png) top center no-repeat;
+}
+
+.make-donation ul li:hover .md-li-inner {
+    background: url(../images/price-box-mobile-hover.png) top center no-repeat;
+}
+
+
+.banner-right {
+    padding: 60px 50px;
+}
+
+.banner-pic
+{
+    padding-top: 30px;
+}
+
+
+.company-name
+{
+  font-size: 40px;
+}
+
+.company-slogan
+{
+  font-size: 20px;
+}
+
+
+
+
+}
+/*991*/
+
+
+
+
+
+@media (max-width: 767px){
+
+.make-donation ul {
+    margin-bottom: 60px;
+}
+
+
+.make-donation ul li {
+    width: 33.333%;
+    margin: 30px 0px;
+}
+
+.md-li-inner {
+    width: 100%;
+}
+
+.donate-button a {
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 200px;
+}
+
+.donate-button {
+    left: -9px;
+}
+
+.md-li-inner {
+    background: url(../images/price-box-mobile.png) top center no-repeat;
+}
+
+.md-li-inner:hover {
+    background: url(../images/price-box-mobile-hover.png) top center no-repeat;
+}
+
+.make-donation ul li:hover .md-li-inner {
+    background: url(../images/price-box-mobile-hover.png) top center no-repeat;
+}
+
+
+.company-logo 
+{
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.company-logo img
+{
+    margin: 0 auto;
+}
+
+.banner-right {
+    background: #000000;
+    padding: 30px 81px;
+}
+
+.banner-graph
+{
+    margin-bottom: 30px;
+}
+
+.banner-pic img
+{
+    margin: 0 auto;
+}
+
+.company-name
+{
+  font-size: 50px;
+}
+
+.company-slogan
+{
+  font-size: 25px;
+}
+
+
+}
+/*767*/
+
+
+
+
+
+
+@media (max-width: 600px){
+
+.make-donation ul {
+    margin-bottom: 60px;
+}
+
+.make-donation ul li {
+  width: 50%;
+  margin: 30px 0px;
+}
+
+.md-li-inner {
+    width: 100%;
+}
+
+.donate-button a {
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 200px;
+}
+
+.donate-button {
+    left: 18px;
+}
+
+
+
+
+
+}
+/*600*/
+
+
+
+
+@media (max-width: 479px){
+
+.make-donation ul {
+    margin-bottom: 20px;
+}
+.form-group {
+    
+    width: 100%;
+}
+
+.make-donation ul li {
+  width: 100%;
+  float: none;
+  margin: 60px 0px;
+}
+
+.white-box {
+    background: #fff url(../images/testm-icon.png) top 30px center no-repeat;
+    padding-left: 0px;
+    padding: 20px 20px;
+    padding-top: 150px;
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px 10px #dcdcdc;
+    margin-bottom: 40px;
+}
+
+.testm-message {
+    padding-left: 20px;
+}
+
+.testm-message::before {
+    left: -25px;
+}
+
+h3
+{
+  text-align: center;
+}
+
+.cr-title {
+    font-size: 19px;
+}
+
+.md-li-inner {
+    width: 100%;
+}
+
+.donate-button a {
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 200px;
+}
+
+.donate-button {
+    left: 108px;
+}
+
+.nf-button a {
+    font-size: 16px;
+}
+
+
+
+}
+/*479*/
+
+
+
+
+@media (max-width: 400px){
+  
+.donate-button {
+    left: 71px;
+}
+
+
+}
+/*400*/
+
+
+
+
+@media (max-width: 350px){
+  
+.donate-button {
+    left: 46px;
+}
+
+
+}
+/*350*/
+
+
+
+
+
+@media (max-width: 320px){
+	
+
+.donate-button {
+    left: 30px;
+}
+
+
+
+
+
+}
+/*320*/

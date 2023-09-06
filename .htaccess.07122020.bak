@@ -1,0 +1,4 @@
+#Options -Indexes
+#RewriteEngine On
+#AddHandler application/x-httpd-php56 .php
+#AddHandler application/x-httpd-php72 .php

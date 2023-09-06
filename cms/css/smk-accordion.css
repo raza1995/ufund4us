@@ -1,0 +1,130 @@
+.smk_accordion {
+  position: relative;
+  margin:15px 0 20px 0;
+  padding: 0;
+  list-style: none;
+ 
+}
+
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../../fonts/OpenSans-Semibold.eot');
+	src: url('../../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/OpenSans-Semibold.woff') format('woff'),
+		url('../../fonts/OpenSans-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),  url('../../fonts/OpenSans.woff') format('woff'), url('../../fonts/OpenSans.ttf')  format('truetype'), url('../../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../../fonts/roboto-medium.eot');
+    src: url('../../fonts/roboto-medium.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/roboto-medium.woff2') format('woff2'),
+         url('../../fonts/roboto-medium.woff') format('woff'),
+         url('../../fonts/roboto-medium.ttf') format('truetype'),
+         url('../../fonts/roboto-medium.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.acc_content ul{ padding:0 ; margin:0 0 10px 0} 
+.acc_content ul li{ border-bottom:1px solid #e1e1e1; line-height:30px}
+.acc_content ul li a{ color:#414141; text-decoration:none; font-size:14px} 
+
+
+/**
+ * --------------------------------------------------------------
+ * Section
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in {
+  border: 1px solid #ccc;
+  position: relative;
+  z-index: 10;
+  margin-top: -1px;
+  overflow: hidden;  margin-bottom: 40px;
+}
+.colmd_12a .smk_accordion .divpad{ margin-bottom:20px}
+/**
+ * --------------------------------------------------------------
+ * Head
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in .acc_head {
+  position: relative;
+background: -moz-linear-gradient(90deg, #e7e7e7 0%, #fafafa 99%, #fafafa 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(1%, #fafafa), color-stop(100%, #e7e7e7)); /* safari4+,chrome */
+background: -webkit-linear-gradient(90deg, #e7e7e7 0%, #fafafa 99%, #fafafa 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(90deg, #e7e7e7 0%, #fafafa 99%, #fafafa 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(90deg, #e7e7e7 0%, #fafafa 99%, #fafafa 100%); /* ie10+ */
+background: linear-gradient(0deg, #e7e7e7 0%, #fafafa 99%, #fafafa 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#e7e7e7',GradientType=0 ); /* ie6-9 */
+  padding: 10px;
+  font-size: 14px;
+  display: block;
+  cursor: pointer;
+}
+.smk_accordion .accordion_in .acc_head .acc_icon_expand {
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 720px;
+  top: 55%;
+  margin-top: -9px;
+  background: url(../images/plusminus.png) center 0;
+}
+/**
+ * --------------------------------------------------------------
+ * Content
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in .acc_content {
+  background: #F9F9F9;
+  color: #7B7E85;
+  padding: 3px 1px;
+}
+.acc_active{ border-radius:6px !important; }
+.smk_accordion .accordion_in .acc_content h1:first-of-type,
+.smk_accordion .accordion_in .acc_content h2:first-of-type,
+.smk_accordion .accordion_in .acc_content h3:first-of-type,
+.smk_accordion .accordion_in .acc_content h4:first-of-type,
+.smk_accordion .accordion_in .acc_content h5:first-of-type,
+.smk_accordion .accordion_in .acc_content h6:first-of-type {
+  margin-top: 5px;
+}
+/**
+ * --------------------------------------------------------------
+ * General
+ * --------------------------------------------------------------
+ */
+.smk_accordion .accordion_in:first-of-type,
+.smk_accordion .accordion_in:first-of-type .acc_head {
+  border-radius: 0;
+}
+.smk_accordion .accordion_in:last-of-type,
+.smk_accordion .accordion_in:last-of-type  {
+  border-radius: 12px;
+}
+.smk_accordion .accordion_in.acc_active > .acc_content {
+  display: block;
+}
+.smk_accordion .accordion_in.acc_active > .acc_head {
+  background:#f1f1f1; 
+color:#8b8888; font-size:16px; border-bottom:1px solid #d2d2d2;
+}
+.smk_accordion .accordion_in.acc_active > .acc_head .acc_icon_expand {
+  background: url(../images/plusminus.png) center -18px;
+}
+.smk_accordion.acc_with_icon .accordion_in .acc_head,
+.smk_accordion.acc_with_icon .accordion_in .acc_content {
+  padding-left: 20px; 	font-family: 'Open Sans'; font-size:16px; color:#8b8888; font-weight: 600;
+}

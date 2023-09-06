@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graph</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="bars.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<section class='bar top'>
+  <h2>Bar styles</h2>
+  <section class='wrap'>
+    
+    <div class='wrap_right'>
+      <div class='bar_group'>
+        <div class='bar_group__bar thick' value='200'>
+			<div class="b_tooltip">
+				<span>Campaign Raised</span>
+				<div class="b_tooltip--tri"></div>
+			</div>
+			<!--<p class="bar_label_min">0</p>
+			<p class="bar_label_max">200</p>-->
+		</div>
+		<div class='bar_group__bar thick' value='150'>
+			<div class="b_tooltip" style="top:220%;left:50%">
+				<div class="b_tooltip--tri" style="top:-35px;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-o-transform: rotate(180deg);-ms-transform: rotate(180deg);transform: rotate(180deg);"></div>
+				<span>Campaign Goal</span>
+			</div>
+		</div>
+      </div>
+	  <div class='bar_group' style="margin-top:65px;">
+	    <div class='bar_group__bar thick' value='130'>
+			<div class="b_tooltip" style="top:220%;left:70%">
+				<div class="b_tooltip--tri" style="top:-35px;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-o-transform: rotate(180deg);-ms-transform: rotate(180deg);transform: rotate(180deg);"></div>
+				<span>Participant Goal</span>
+			</div>
+		</div>
+		<div class='bar_group__bar thick' value='80'>
+			<div class="b_tooltip">
+				<span>Participant Raised</span>
+				<div class="b_tooltip--tri"></div>
+			</div>
+		</div>
+	  </div>
+    </div>
+    <div class='clear'></div>
+  </section>
+</section>
+
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="bars.js"></script>
+</body>
+</html>

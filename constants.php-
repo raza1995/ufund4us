@@ -1,0 +1,16 @@
+<?php 
+ // die("3--". dirname(__FILE__) );  //3--D:\xampp\htdocs\ufund4us.com\app
+require_once(dirname(__FILE__)."/../constants_on_main.php");
+
+//Load libraries inside the vendor folder
+/*
+- Right now we only have mpdf, calling from following files 
+app\automation_donation_reconciliation.php:
+app\cms\build_team.php:
+app\cms\generatepdf.php:
+app\cron2.php:
+app\cron4.php:
+
+*/
+require_once __DIR__ . '/vendor/autoload.php';
+?>
